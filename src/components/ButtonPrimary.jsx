@@ -5,9 +5,11 @@ export default function ButtonPrimary(props) {
 
   return (
     <button
-      className={
-        `button-primary ${light && "button-primary button-light"} ${auto && "button-auto"}`
-      }
+      className={`
+        button-primary
+        ${light ? "button-primary button-light" : ""}
+        ${auto ? "button-auto" : ""}
+      `}
     >
       <span>{label}</span>
     </button>
