@@ -24,13 +24,13 @@ const stateInitial = {
       id: 3,
       name: "Negocio",
       url_image: CartoonIce,
-      description: "Asegura tu negocios, tus trabajandores y cualquier vehiculo comercial. General Liability, Workers Comp, Bonds etc."
+      description: "Asegura tu negocios, tus trabajandores y cualquier vehículo comercial. General Liability, Workers Comp, Bonds etc."
     },
     {
       id: 4,
       name: "Placas",
       url_image: Enmascarar,
-      description: "Hammer  renueva las placas y calcomania de su auto ademas de gestionar el cambio de propietario y demas tramitaciones."
+      description: "Hammer  renueva las placas y calcomanía de su auto ademas de gestionar el cambio de propietario y demás tramitaciones."
     }
   ]
 }

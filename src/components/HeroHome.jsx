@@ -15,7 +15,7 @@ export default function HeroHome(props) {
             Seguro integral en el que puedes confiar
           </span>
           <span className="text-title text-large">
-            Confia en {bussinesName}
+            Confía en {bussinesName}
           </span>
           <span className="text-title text-large">
             {description} ¡somos vecinos!
