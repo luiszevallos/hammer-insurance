@@ -8,7 +8,7 @@ export default function CarouselServices() {
   return (
     <div className="carousel-services">
       {services.map(service => (
-        <div className="item-service">
+        <div className="item-service" key={service.id}>
           <span className="text-title">{service.name}</span>
           <p className="text-message">{service.description}</p>
           <div>
